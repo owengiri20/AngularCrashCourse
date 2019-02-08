@@ -10,7 +10,6 @@ export class AppComponent {
 
   constructor(){
     this.name = 'Owen'
-    alert('change')
     this.changeName('name has changed')
   }
 
@@ -18,3 +17,4 @@ export class AppComponent {
     this.name = name;
   }
 }
+  
